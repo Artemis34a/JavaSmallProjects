@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 public class SommeDePremiers {
     static int n;
+
     List<Integer> numbers = new ArrayList<>();
     int s = 0;
     void getN(Scanner sc){
@@ -16,6 +17,7 @@ public class SommeDePremiers {
                numbers.add(i);
                s = s + i;
            }
+
        }
 
     }
