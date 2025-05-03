@@ -1,0 +1,93 @@
+Toutes les tables sont dans la meme base de données
+Les données ont étes chargés à partir de fichiers CSV
+à l'aide du LOAD DATA LOCAL INFILE
+Certaines données ont étés ajoutées pour des tests.
+
+
+JEU DE DONNEES 1
+1.
+ SELECT author.name, book.title FROM book
+ INNER JOIN author a on book.author_id = a.id;
+
+2.
+    SELECT author.name, book.title, book.publish_year FROM book
+    INNER JOIN author a on book.author_id = a.id
+    WHERE publish_year > 2005;
+
+3.
+    SELECT book.title AS book_title,
+     adaptation.title AS adaptation_title ,
+     publish_yearn, release_year FROM book
+    INNER JOIN adaptation a on book.id = a.book_id
+    WHERE publish_year > YEAR(CURRENT_DATE) -4
+    AND book.note < adaptation.rating;
+
+4.
+    SELECT * FROM book
+    LEFT JOIN adaptation a on book.id = a.book_id;
+
+5.
+    SELECT * FROM book
+    LEFT JOIN adaptation a on book.id = a.book_id
+    WHERE type = 'movie';
+
+6.
+    SELECT title, review, author  FROM book
+    RIGHT JOIN book_review br on book.id = br.book_id
+
+7.
+    SELECT * FROM book
+    FULL JOIN author a on author_id = a.id;
+
+
+
+
+JEU DE DONNEES 2
+
+8.
+    SELECT product.name AS product,
+    department.name AS department
+    FROM product
+    INNER JOIN nutrition_data
+    ON product.id = nutrition_data.product_id
+    INNER JOIN department
+    ON product.department_id = department.id
+    WHERE calories < 150;
+
+9.
+    SELECT producer.name AS producer_name,
+           department.name AS department_name,
+           product.name AS product_name,
+            carbohydrate AS glucides
+           FROM product
+    LEFT OUTER JOIN producer
+    ON product.producer_id = producer.id
+    LEFT OUTER JOIN department
+    ON product.department_id = department.id
+    INNER JOIN nutrition_data;
+
+10.
+    SELECT product.name AS product_name,
+           price AS product_price,
+           p.name AS producer_name,
+            d.name AS department_name
+    FROM product
+    LEFT OUTER JOIN producer p
+    ON product.producer_id = p.id
+    LEFT OUTER JOIN department d
+    ON product.department_id = d.id
+
+
+JEU DE DONNEES 3
+
+11.
+    SELECT A.name AS Apprentice_name,
+           M.name AS Master_name
+           FROM workshop_workers AS A
+    LEFT JOIN workshop_workers AS M
+    ON A.master_id = M.id;
+
+JEU DE DONNEES 4
+
+12.
+

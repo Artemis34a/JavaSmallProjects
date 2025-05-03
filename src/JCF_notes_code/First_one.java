@@ -1,6 +1,8 @@
+package JCF_notes_code;
+
 import java.util.Collection;
 
-package JCF_notes_code;
+
 
 
 

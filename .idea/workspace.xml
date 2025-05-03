@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eba31ab3-8985-4030-980a-985367d3e92b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JCF_notes_code/First_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JustToTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PwdGen.java" afterDir="false" />
+    <list default="true" id="eba31ab3-8985-4030-980a-985367d3e92b" name="Changes" comment="Start of java streams learning">
+      <change afterPath="$PROJECT_DIR$/src/LearningFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SommeDePremiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SommeDePremiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evenSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requetes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requetes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroLambda1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroLambda1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JCF_notes_code/First_one.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JCF_notes_code/First_one.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_streams/Note1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_streams/Note1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_streams/func_interfaces/Melon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_streams/func_interfaces/Melon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rand_java_training/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rand_java_training/ComplexNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.ComplexNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroLambda1.executor&quot;: &quot;Run&quot;,
     &quot;Application.JustToTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LearningFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Learning_Files.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Melon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Note1.executor&quot;: &quot;Run&quot;,
     &quot;Application.PwdGen.executor&quot;: &quot;Run&quot;,
     &quot;Application.SommeDePremiers.executor&quot;: &quot;Run&quot;,
     &quot;Application.evenSum.executor&quot;: &quot;Run&quot;,
@@ -50,9 +59,10 @@
     &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/Desktop/projects/javaSmallProjects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/Desktop/projects/leetcodes/java_leet&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,13 +77,53 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
       &quot;JAVA&quot;,
       &quot;Python&quot;
     ]
   }
 }</component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\projects\javaSmallProjects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\projects\javaSmallProjects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LearningFiles">
+    <configuration name="ComplexNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rand_java_training.ComplexNumber" />
+      <module name="javaSmallProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rand_java_training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearningFiles" />
+      <module name="javaSmallProjects" />
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Learning_Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Learning_Files" />
+      <module name="javaSmallProjects" />
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.java" />
@@ -90,8 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Application.LearningFiles" />
+        <item itemvalue="Application.Learning_Files" />
+        <item itemvalue="Application.ComplexNumber" />
         <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -116,12 +169,51 @@
       <workItem from="1729257811042" duration="883000" />
       <workItem from="1729689145758" duration="4681000" />
       <workItem from="1731027045211" duration="2285000" />
-      <workItem from="1731596951780" duration="377000" />
+      <workItem from="1731596951780" duration="5430000" />
+      <workItem from="1732189252370" duration="3647000" />
+      <workItem from="1733242479447" duration="4692000" />
+      <workItem from="1733935521026" duration="9405000" />
+      <workItem from="1734367982839" duration="8847000" />
+      <workItem from="1734457429101" duration="2430000" />
+      <workItem from="1734460247869" duration="5528000" />
+      <workItem from="1734818018825" duration="3201000" />
+      <workItem from="1734828168805" duration="7487000" />
+      <workItem from="1737450385090" duration="1205000" />
+      <workItem from="1738140316302" duration="8148000" />
+      <workItem from="1739275727911" duration="631000" />
+      <workItem from="1742819468994" duration="5917000" />
+      <workItem from="1743503469166" duration="3042000" />
+      <workItem from="1743945217937" duration="2216000" />
+      <workItem from="1746242957159" duration="437000" />
     </task>
+    <task id="LOCAL-00001" summary="Start of java streams learning">
+      <option name="closed" value="true" />
+      <created>1731597474113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731597474113</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start of java streams learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start of java streams learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
